@@ -1,0 +1,259 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/backgroundimage1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Header Styles */
+
+header {
+    background-color: #121212;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+/* Navigation Bar Styles */
+
+.navbar {
+    background-color: #121212;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar .logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #11c9fc;
+}
+
+
+/* Advertisement Section Styles */
+
+.advertisement {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.advertisement h3 {
+    font-size: 24px;
+}
+
+.advertisement p {
+    font-size: 18px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #11c9fc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* New Arrivals section */
+
+.new-arrivals .container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.product-card {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.product-card img {
+    max-width: 600px;
+}
+
+
+/* Hero Section Styles */
+
+.hero {
+    background-image: url('fashionmodel1.jpeg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* Featured Products Section Styles */
+
+.product-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #161212;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #fca311;
+    padding: 0 10px;
+}
+
+.buy-button {
+    display: block;
+    padding: 10px;
+    background-color: #11c9fc;
+    color: #130e0e;
+    text-decoration: none;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.featured-products {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cart-item-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.cart-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: #2980b9;
+}
